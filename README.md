@@ -1,5 +1,6 @@
 Here is howto install XOA community edition on a CentOS7:
 
+```
 Install NodeJS and the Redis DB
 yum install rh-nodejs8-npm.x86_64 rh-redis32.x86_64 git gcc make
 
@@ -65,3 +66,5 @@ Have fun, and report bugs:
 https://github.com/MrMEEE/xoa-ansible/issues
 
 In time, I will provide RPM packages as well..
+
+```
