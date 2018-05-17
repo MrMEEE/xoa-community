@@ -57,7 +57,7 @@ then start XOA:
 systemctl start xoa
 systemctl enable xoa
 
-Now the XOA webinterface should be available at port 80 on your server.. 
+Now the XOA webinterface should be available at port 80 on your server.. (Port can be changed in /opt/xen-orchestra/packages/xo-server/.xo-server.yaml)
 
 Username: admin@admin.net
 Pass: admin
