@@ -73,5 +73,6 @@ Updating
 
 ```
 scl enable rh-nodejs8 "su xoa -c \"cd /opt/xen-orchestra && git pull --ff-only && yarn && yarn build\""
+systemctl restart xoa
 
 ```
