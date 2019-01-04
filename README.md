@@ -72,6 +72,7 @@ In time, I will provide RPM packages as well..
 Updating
 
 ```
+scl enable rh-nodejs8 "npm -g install yarn"
 scl enable rh-nodejs8 "su xoa -c \"cd /opt/xen-orchestra && git pull --ff-only && yarn && yarn build\""
 systemctl restart xoa
 
